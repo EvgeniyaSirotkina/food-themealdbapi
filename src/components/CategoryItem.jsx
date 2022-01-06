@@ -14,13 +14,13 @@ const CategoryItem = (props) => {
                 <img src={strCategoryThumb} alt={strCategory} />
             </div>
             <div className="card-content">
-                <span class="card-title activator grey-text text-darken-4">{strCategory}<i class="material-icons right">more_vert</i></span>
+                <span className="card-title activator grey-text text-darken-4">{strCategory}<i className="material-icons right">more_vert</i></span>
             </div>
             <div className="card-action">
                 <Link to={`/food-themealdbapi/category/${strCategory}`} className='btn deep-purple accent-1'>Watch category</Link>
             </div>
             <div className="card-reveal">
-                <span class="card-title grey-text text-darken-4">{strCategory}<i className="material-icons right">close</i></span>
+                <span className="card-title grey-text text-darken-4">{strCategory}<i className="material-icons right">close</i></span>
                 <p>{strCategoryDescription}</p>
             </div>
         </div>

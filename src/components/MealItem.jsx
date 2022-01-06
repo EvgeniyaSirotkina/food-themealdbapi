@@ -14,7 +14,7 @@ const MealItem = (props) => {
                 <img src={strMealThumb} alt={strMeal} />
             </div>
             <div className="card-content">
-                <span class="card-title">{strMeal}</span>
+                <span className="card-title">{strMeal}</span>
             </div>
             <div className="card-action">
                 <Link to={`/food-themealdbapi/meal/${idMeal}`} className='btn deep-purple accent-1'>Watch meal</Link>
