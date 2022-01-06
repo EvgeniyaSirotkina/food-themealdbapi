@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Category from './pages/Category';
+import Recipe from './pages/Recipe';
 import NotFound from './pages/NotFound';
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
             <Route path='/food-themealdbapi/about' element={<About />} />
             <Route path='/food-themealdbapi/contacts' element={<Contact />} />
             <Route path='/food-themealdbapi/category/:name' element={<Category />} />
+            <Route path='/food-themealdbapi/meal/:id' element={<Recipe />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         </main>
