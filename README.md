@@ -1,4 +1,10 @@
-# React Movies App
+# React Food App
+
+This project use [The Meal DB API](https://www.themealdb.com/).
+
+[Demo](https://evgeniyasirotkina.github.io/food-themealdbapi)
+![изображение](https://user-images.githubusercontent.com/47915167/148451389-15858923-3e18-4ccf-b15f-eae754837e55.png)
+
 
 --------
 
