@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/food-themealdbapi/static/css/main.5d30a9e9.css",
+    "main.js": "/food-themealdbapi/static/js/main.a53e30d7.js",
+    "index.html": "/food-themealdbapi/index.html",
+    "main.5d30a9e9.css.map": "/food-themealdbapi/static/css/main.5d30a9e9.css.map",
+    "main.a53e30d7.js.map": "/food-themealdbapi/static/js/main.a53e30d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d30a9e9.css",
+    "static/js/main.a53e30d7.js"
+  ]
+}
