@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Category from './pages/Category';
 import NotFound from './pages/NotFound';
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
             <Route exact path='/food-themealdbapi' element={<Home />} />
             <Route path='/food-themealdbapi/about' element={<About />} />
             <Route path='/food-themealdbapi/contacts' element={<Contact />} />
+            <Route path='/food-themealdbapi/category/:name' element={<Category />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         </main>
