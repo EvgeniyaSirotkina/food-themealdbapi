@@ -2,7 +2,7 @@ const Header = () => {
     return (
         <nav className='deep-purple accent-3'>
             <div className='nav-wrapper'>
-                <a href='/' className='brand-logo right'>React Shop</a>
+                <a href='/food-themealdbapi' className='brand-logo right'>React Shop</a>
                 <ul id='nav-mobile' className='left hide-on-med-and-down'>
                     <li>
                         <a
@@ -13,8 +13,8 @@ const Header = () => {
                             GitHub
                         </a>
                     </li>
-                    <li><a href='/about' >About</a></li>
-                    <li><a href='/contact' >Contacts</a>
+                    <li><a href='/food-themealdbapi/about' >About</a></li>
+                    <li><a href='/food-themealdbapi/contact' >Contacts</a>
                     </li>
                 </ul>
             </div>

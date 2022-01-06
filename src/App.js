@@ -19,9 +19,9 @@ export default function App() {
       <main className='container content'>
         <Router>
           <Routes>
-              <Route exact path='/' element={<Home />} />
-              <Route path='/about' element={<About />} />
-              <Route path='/contact' element={<Contact />} />
+              <Route exact path='/food-themealdbapi' element={<Home />} />
+              <Route path='/food-themealdbapi/about' element={<About />} />
+              <Route path='/food-themealdbapi/contact' element={<Contact />} />
               <Route path='*' element={<NotFound />} />
           </Routes>
         </Router>
