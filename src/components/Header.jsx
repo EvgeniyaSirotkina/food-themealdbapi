@@ -13,6 +13,9 @@ const Header = () => {
                             GitHub
                         </a>
                     </li>
+                    <li><a href='/about' >About</a></li>
+                    <li><a href='/contact' >Contacts</a>
+                    </li>
                 </ul>
             </div>
         </nav>
