@@ -15,18 +15,18 @@ import NotFound from './pages/NotFound';
 export default function App() {
   return (
     <>
-      <Header />
-      <main className='container content'>
-        <Router>
+      <Router>
+        <Header />
+        <main className='container content'>
           <Routes>
-              <Route exact path='/food-themealdbapi' element={<Home />} />
-              <Route path='/food-themealdbapi/about' element={<About />} />
-              <Route path='/food-themealdbapi/contact' element={<Contact />} />
-              <Route path='*' element={<NotFound />} />
+            <Route exact path='/food-themealdbapi' element={<Home />} />
+            <Route path='/food-themealdbapi/about' element={<About />} />
+            <Route path='/food-themealdbapi/contacts' element={<Contact />} />
+            <Route path='*' element={<NotFound />} />
           </Routes>
-        </Router>
-      </main>
-      <Footer />
+        </main>
+        <Footer />
+      </Router>
     </>
   );
 }

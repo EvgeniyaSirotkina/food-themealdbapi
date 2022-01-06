@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom';
+
 const Header = () => {
     return (
         <nav className='deep-purple accent-3'>
             <div className='nav-wrapper'>
-                <a href='/food-themealdbapi' className='brand-logo right'>React Shop</a>
+            <Link to={'/food-themealdbapi'} className='brand-logo right'>React Shop</Link>
                 <ul id='nav-mobile' className='left hide-on-med-and-down'>
                     <li>
                         <a
@@ -13,12 +15,11 @@ const Header = () => {
                             GitHub
                         </a>
                     </li>
-                    <li><a href='/food-themealdbapi/about' >About</a></li>
-                    <li><a href='/food-themealdbapi/contact' >Contacts</a>
-                    </li>
+                    <li><Link to={'/food-themealdbapi/about'}>About</Link></li>
+                    <li><Link to={'/food-themealdbapi/contacts'}>Contacts</Link></li>
                 </ul>
             </div>
-        </nav>
+        </nav >
     );
 }
 
