@@ -31,6 +31,12 @@ nav, footer {
   flex-grow: 1;
 }
 
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
+
 img,
 iframe {
     max-width: 100%;
